@@ -6,7 +6,7 @@ import time
 
 class InternetSpeedTwitterBot:
     def __init__(self):
-        chrome_driver="your seleninum webdeiver path"
+        chrome_driver="your seleninum webdriver path"
         options = webdriver.ChromeOptions() 
         options.add_argument("start-maximized")
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
